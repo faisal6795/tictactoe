@@ -36,7 +36,8 @@ $blue: #0076dc;
     width: 300px;
     display: flex;
     flex-wrap: wrap;
-    margin: 15vh auto 0;
+    justify-content: center;
+    margin: calc(50vh - 13rem) auto 0;
 
     app-block {
         display: inline-block;

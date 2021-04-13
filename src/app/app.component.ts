@@ -33,8 +33,8 @@ export class AppComponent {
 			if (this.isPlaying) return;
 			this.isPlaying = true;
 			this.playChance(id);
-			setTimeout(() => { this.playAiChance() }, 500);
-			setTimeout(() => { this.isPlaying = false }, 1000);
+			setTimeout(() => { this.playAiChance() }, 300);
+			setTimeout(() => { this.isPlaying = false }, 500);
 		}
 	}
 
