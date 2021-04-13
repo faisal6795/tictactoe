@@ -1,0 +1,4 @@
+<div class="block" [ngClass]="{'active':isActive}" [style.background-color]="backgroundColor">
+    <span *ngIf="blockValue==1" class="material-icons-round text cross">close</span>
+    <span *ngIf="blockValue==2" class="material-icons-round text">radio_button_unchecked</span>
+</div>
